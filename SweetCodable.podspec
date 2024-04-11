@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       SweetCodable is a powerful and pure Swift implemented library for Codable model.
+                       * SweetCodable focus on resolve the Codable deficiencies and Improve the convenience of model analysis
+                       * I think the SweetCodable is sweet and cool.
                        DESC
 
   s.homepage         = 'https://github.com/Jowsing/SweetCodable'
@@ -29,7 +31,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  
+  s.swift_versions = ['5']
 
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
 end
