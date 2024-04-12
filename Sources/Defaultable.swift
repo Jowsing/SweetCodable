@@ -66,3 +66,11 @@ extension Int64: Defaultable {
 extension UInt64: Defaultable {
     public static var `default`: UInt64 { 0 }
 }
+
+extension Array: Defaultable {
+    public static var `default`: Array { [] }
+}
+
+extension Dictionary: Defaultable {
+    public static var `default`: Dictionary { [:] }
+}

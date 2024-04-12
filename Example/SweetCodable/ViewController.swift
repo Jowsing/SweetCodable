@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     
     struct User: Codable {
         @Sweet var name: String
-        @Sweet var age: Int
-        @Sweet var sex: Int8
+        @Default var age: Int
+        @Default var sex: Int8
     }
 
     override func viewDidLoad() {
